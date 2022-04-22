@@ -15,13 +15,17 @@
         <div class="container">
             <div class="signup-content">
                 <div class="signup-img">
-                    <img src="images/form-img.jpg" alt="">
+                    <img src="bb2.jpg" alt="" class="img">
                     <div class="signup-img-content">
-                        <h2>Register now </h2>
-                        <p>Track your fitness here !</p>
+                        <h2 id="register">Register now </h2>
+                        <p id="track">Track your fitness here !</p>
                     </div>
                 </div>
-                <div class="signup-form">
+                <div class="login">
+                   
+                     <a href="loginpage.html" style="font-size:1.5vw;text-align: right; background-color:rgb(30,148,270); color:white;padding:0.7vh 1.2vw 0.7vh 1.2vw; border-style: ridge;">login</a>
+               </div>
+                    <div class="signup-form">
                     <form method="POST" class="register-form" id="register-form">
                         <div class="form-row">
                             <div class="form-group">
@@ -89,14 +93,21 @@
                                     <label for="Height">Height</label>
                                     <input type="text" name="Height" id="Height" />
                                 </div>
+                                <div class="form-input">
+                                    <label for="Password" class="required">choose Password</label>
+                                    <input type="password" name="password" id="password" />
+                                </div>
                             </div>
+
+
+                            
                         </div>
                         <div class="form-submit">
-                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
-                            <input type="submit" value="Reset" class="submit" id="reset" name="reset" />
+                           
+                            
                         </div>
                     </form>
-                </div>
+                    </div>
             </div>
         </div>
 
