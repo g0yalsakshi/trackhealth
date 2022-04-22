@@ -205,17 +205,19 @@ body {
   color: #222;
   font-weight: 500;
   font-family: 'Poppins';
-  margin: 0px;
-  margin-bottom:30px;
-  background: #282828;
+  margin: 10px;
+  
+
    }
 
 .main {
-  position: relative; }
+  position: relative;
+ }
 
 .container {
   width: 1400px;
-  margin: 0 auto;
+
+  
   background: #fff; }
 
 .signup-img {
@@ -224,8 +226,8 @@ body {
   margin-bottom: -8px; }
 
 .signup-form {
-  width: 1015px;
-  margin-top: -2px; }
+  width: 900px;
+  margin-left:10px; }
 
 .signup-img-content {
   position: absolute;
@@ -240,9 +242,12 @@ body {
   width: 100%; }
 
 .register-form {
-  padding: 93px 115px 90px 80px;
+  padding: 15px 55px 15px 15px;
   margin-bottom: -8px; }
 
+.register-form2 {
+   padding: 30px;
+  margin-bottom: -8px; }
 .form-row {
   margin: 0 -30px; }
   .form-row .form-group {
@@ -498,13 +503,13 @@ li.init {
   text-align: right; }
 
 .submit {
-  width: 150px;
-  height: 50px;
+  width: 100px;
+  height: 30px;
   display: inline-block;
   font-family: 'Poppins';
   font-weight: bold;
-  font-size: 14px;
-  padding: 10px;
+  font-size: 12px;
+  
   border: none;
   cursor: pointer;
   text-transform: uppercase;
@@ -513,7 +518,22 @@ li.init {
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
   -ms-border-radius: 5px; }
-
+  .submit2 {
+    width: 50vw;
+    height: 50px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px; }
 #reset {
   background: #fff;
   color: #999;
@@ -529,7 +549,12 @@ li.init {
   margin-right: 25px; }
   #submit:hover {
     background-color: #267747; }
-
+    #submit2 {
+      background: #329e5e;
+      color: #fff;
+       }
+      #submit2:hover {
+        background-color: #267747; }
 .form-input {
   position: relative; }
 
@@ -561,18 +586,18 @@ input.error {
   width: 100%;
   z-index: 99; }
   .login{
-    text-align: right;
+    
     
   }
   .img{
-    height: 90vh;
+    margin-bottom: 10px;
+    
   }
-
 @media screen and (max-width: 1024px) {
   .container {
     width: calc( 100% - 30px);
     max-width: 100%;
-    margin: 0 auto; }
+     }
 
   .signup-img {
     display: none; }
