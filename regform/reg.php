@@ -1,4 +1,6 @@
 <?php
+
+
 session_start();
 $con=mysqli_connect('localhost','root');
 mysqli_select_db($con,'userregistration');
@@ -7,12 +9,12 @@ $last_name=$_POST['last_name'];
 $age=$_POST['Age'];
 $email=$_POST['email'];
 $phone_number=$_POST['phone_number'];
-$exercise_level=$_POST['Exercise_level'];
+$exercise_level=$_POST['Exercise_Level'];
 $gender=$_POST['gender'];
 $weight=$_POST['Weight'];
 $height=$_POST['Height'];
-$password=$_POST['Password'];
-$s="select * from users where name = '$name'";
+$password=$_POST['password'];
+$s="select * from users where first_name = '$first_name'";
 $result= mysqli_query($con,$s);
 $num=mysqli_num_rows($result);
 if($num==1){
@@ -25,6 +27,5 @@ mysqli_query($con,$reg);
 echo"reg succesfull";
 
 }
-    
+ ?>   
 
-?>
